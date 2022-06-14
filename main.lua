@@ -113,7 +113,7 @@ eventLoop = function(cT, rT)
             end
         elseif currentEvent == "earthquake" and cT >= 5000 and cT <= 5500 then
             tfm.exec.setAieMode()
-            tfm.exec.addPhysicObject(501, -50, 2495, {type = 13, width = 3500, height = 10, groundCollision = false})
+            tfm.exec.addPhysicObject(501, -50, 2497, {type = 14, width = 3500, height = 10, groundCollision = false})
             for i = 1, 5 do
                 tfm.exec.addPhysicObject(i * 100, 1300, 3150, {
                     type = 12,
